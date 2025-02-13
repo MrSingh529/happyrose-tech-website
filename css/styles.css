@@ -549,6 +549,10 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 1;
 }
 
+.btn.primary-btn:hover {
+  opacity: 1 !important; /* override the inline style if you want a hover effect */
+}
+
 /* Modal Styles */
 .modal {
   display: none; /* Hidden by default */
