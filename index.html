@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>HappyRose Tech Solutions</title>
+  <title>NeXus Tech Solutions</title>
   <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
 
   <!-- Modern Font Combination -->
@@ -27,7 +27,7 @@
   <header class="header" id="top">
     <div class="logo">
       <i class="fas fa-robot"></i>
-      <span>HappyRose Tech</span>
+      <span>NeXus Tech</span>
     </div>
     
     <div class="menu-toggle" id="mobile-menu">
@@ -57,7 +57,7 @@
       <div class="hero-text" data-aos="fade-up">
         <span class="subtitle">Welcome to the Future</span>
         <h1>Revolutionize Your Business With Smart Automation</h1>
-        <p>Transform manual processes into intelligent workflows. Boost efficiency, reduce costs, and accelerate growth with our cutting-edge automation solutions.</p>
+        <p>Transform manual processes into intelligent workflows. Boost efficiency, reduce costs, and accelerate growth with our cutting‐edge automation solutions.</p>
         <div class="hero-btns">
           <button class="btn primary-btn" id="learnMoreBtn">
             <span>Explore Solutions</span>
@@ -78,7 +78,7 @@
         <div class="stat-item">
           <span class="counter" data-target="500">0</span>
           <span class="symbol">+</span>
-          <p>Happy Clients</p>
+          <p>Satisfied Clients</p>
         </div>
       </div>
     </div>
@@ -220,7 +220,7 @@
   <!-- WHY CHOOSE US SECTION -->
   <section class="why-see-section" id="why-choose-us">
     <div class="why-see-content" data-aos="fade-right">
-      <h2>Why Choose HappyRose Tech Solutions?</h2>
+      <h2>Why Choose NeXus Tech Solutions?</h2>
       <p>
         We specialize in designing and implementing solutions that empower your team to focus on what really matters. 
         From process mapping to AI-driven analytics, our holistic approach boosts productivity and ROI.
@@ -237,7 +237,7 @@
       <button class="btn primary-btn" id="demoBtn">Request a Demo</button>
     </div>
     <div class="why-see-image" data-aos="fade-left">
-      <img src="images/why-hr.png" alt="Why Choose HappyRose illustration">
+      <img src="images/why-hr.png" alt="Why Choose NeXus Tech Solutions illustration">
     </div>
   </section>
 
@@ -263,7 +263,7 @@
     </div>
     <div class="impact-text" data-aos="fade-up" data-aos-delay="450">
       <p>
-        At our current company, we redefined our workflow through smart automation. By slashing manual tasks and streamlining processes, we boosted efficiency and freed up our team for higher-value work. Now, we’re excited to bring these proven results to your business.
+        At NeXus Tech Solutions, we redefined our workflow through smart automation. By slashing manual tasks and streamlining processes, we boosted efficiency and freed up our team for higher‐value work. Now, we’re excited to bring these proven results to your business.
       </p>
     </div>
   </section>
@@ -273,7 +273,7 @@
     <div class="contact-info" data-aos="fade-up">
       <h2>Get in Touch</h2>
       <p>Interested in automating your processes for a better ROI? Talk to us!</p>
-      <p><strong>Email:</strong> sales@hrtech.com</p>
+      <p><strong>Email:</strong> sales@nexustechsolutions.com</p>
       <p><strong>Phone:</strong> 8510881306</p>
       <p><strong>Address:</strong> New Delhi</p>
     </div>
@@ -295,7 +295,7 @@
 
   <!-- FOOTER -->
   <footer class="footer">
-    <p>© <span id="year"></span> HappyRose Tech Solutions. All rights reserved.</p>
+    <p>© <span id="year"></span> NeXus Tech Solutions. All rights reserved.</p>
     <div class="social-links">
       <a href="#"><img src="images/icon-facebook.svg" alt="Facebook" /></a>
       <a href="#"><img src="images/icon-linkedin.svg" alt="LinkedIn" /></a>
@@ -310,7 +310,7 @@
   <div class="modal" id="getStartedModal">
     <div class="modal-content" data-aos="zoom-in">
       <span class="close">&times;</span>
-      <h2>Get Started with HappyRose</h2>
+      <h2>Get Started with NeXus Tech Solutions</h2>
       <p>Join us today and revolutionize your business processes!</p>
       <form action="#" method="POST">
         <input type="text" placeholder="Your Name" required>
@@ -326,7 +326,7 @@
       <span class="close">&times;</span>
       <h2>Discover Our Automation Solutions</h2>
       <p>
-        At HappyRose, we blend technology with creativity to streamline your workflows and boost efficiency.
+        At NeXus Tech Solutions, we blend technology with creativity to streamline your workflows and boost efficiency.
         Our custom solutions are designed to fit your unique business needs.
       </p>
       <button class="btn secondary-btn" onclick="document.getElementById('learnMoreModal').style.display='none'">
@@ -385,12 +385,17 @@
       updateCount();
     });
 
-    // GSAP Animations
+    // GSAP Animations for floating elements
     gsap.from(".floating-elements .float-item", {
       y: 100,
       opacity: 0,
       duration: 1,
       stagger: 0.2
+    });
+
+    // Mobile Navigation Toggle
+    document.getElementById('mobile-menu').addEventListener('click', () => {
+      document.querySelector('.nav').classList.toggle('active');
     });
   </script>
 </body>
